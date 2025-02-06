@@ -83,9 +83,9 @@ function App() {
         </div>
       </div>
 
-      <p data-testid="gameInstructions" className="instructions">
+      <h2 data-testid="gameInstructions" className="instructions">
         Memorize the color before it flips!
-      </p>
+      </h2>
 
       <div className="color-options">
         {colorOptions.map((color, index) => (
